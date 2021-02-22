@@ -1,0 +1,27 @@
+laravel new set
+configurar conexão com banco de dados
+composer require oscarafdev/migrations-generator 2.0.18
+php artisan migrate:generate
+Y
+0
+composer require reliese/laravel
+
+##############
+Add the service provider to your config/app.php file within the providers key:
+
+// ...
+'providers' => [
+    /*
+     * Package Service Providers...
+     */
+
+    Reliese\Coders\CodersServiceProvider::class,
+],
+// ...
+##############
+
+php artisan vendor:publish
+[18] Tag: reliese-models
+18
+
+php artisan code:models

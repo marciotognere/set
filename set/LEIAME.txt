@@ -1,0 +1,21 @@
+Procedimentos para executar o sistema:
+
+- O primeiro passo é realizar o download e isntalação do servidor php:
+https://sourceforge.net/projects/wampserver/
+
+- Em seguida realize o download e instalação do banco de dados MySQL:
+https://www.mysql.com/downloads/
+
+- Em seguida realize o download e instalação gerenciador de pacotes Composer:
+https://getcomposer.org/download/
+
+- No terminal linux ou windows(cmd) execute o comando abaixo para instalar o framework web Laravel:
+composer global require laravel/installer
+
+- Copie o sistema para a pasta www dentro do servidor wamp
+
+- Abra o banco de dados mysql e crie um banco de dados chamado "set", em seguida execute o script monitoria_mysql.sql localizado na raiz da pasta do sistema.
+
+- Acesse a pasta do projeto através do terminar e execute o comando: php artisan serve
+
+- No navegador acesse o caminho: http://localhost:8000/acesso
